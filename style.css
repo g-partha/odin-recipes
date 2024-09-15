@@ -1,22 +1,28 @@
+* {
+    /* outline: 2px solid green; */
+    box-sizing: border-box;
+}
+
 body {
-    background-color:azure;
+    padding:0;
+    margin:0;
+    background-color: rgb(37, 27, 77);
 }
 
 h1 {
     font-family: Georgia, "Times New Roman", serif;
-    color: rgb(102, 101, 101);
+    color: rgb(88, 88, 88);
+    text-align: center;
+    padding: 25px 10px;
+    margin: 15px auto;
+    /* background-color: rgb(18, 102, 248); */
+    background-color: rgb(231, 231, 231);
+    max-width: 800px;
 }
 
-h2 {
-    font-family: "Trebuchet MS", sans-serif;
-    color: rgb(81, 81, 81);
-}
-
-p, ul, ol {
-    font-family: Verdana, sans-serif;
-    font-size: 14px;
+p, ol {
+    font-size: 16px;
     text-align: justify;
-    color: rgb(37, 37, 37);
 }
 
 ul {
@@ -28,7 +34,72 @@ ul, ol {
     line-height: 1.6;
 }
 
+ol li {
+    margin: 15px 0;
+}
+
+.outer-container {
+    margin: 0 auto;
+    max-width: 800px;
+    /* color: white; */
+    color: rgb(80, 80, 80);
+    font-family: "Trebuchet MS", sans-serif
+}
+
 .cover_image {
     width: 300px;
     height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.index {
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: rgb(231, 231, 231);
+}
+
+.index ul {
+    max-width: fit-content;
+    margin: 15px auto;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.ingredients {
+    padding: 10px;
+    margin: 10px auto;
+    max-width: fit-content;
+    /* background-color: antiquewhite; */
+    /* color: black; */
+}
+
+.image-container {
+    /* background-color: rgb(18, 102, 248); */
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.description-container {
+    /* background-color: rgb(18, 102, 248); */
+    background-color: rgb(231, 231, 231);
+    padding: 20px 30px;
+    margin: 15px 0;
+}
+
+.ingredients-container {
+    /* background-color: rgb(18, 102, 248); */
+    background-color: rgb(231, 231, 231);
+    padding: 20px 30px;
+    margin: 15px 0;
+}
+
+.steps-container {
+    /* background-color: rgb(18, 102, 248); */
+    background-color: rgb(231, 231, 231);
+    padding: 20px 30px;
+    margin: 15px 0;
 }
